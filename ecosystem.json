@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "app",
+      "script": "./.output/server/index.mjs",
+      "instances": "max",
+      "exec_mode": "cluster"
+    }
+  ]
+}
